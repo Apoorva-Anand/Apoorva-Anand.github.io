@@ -1,0 +1,167 @@
+
+
+.navDeskTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff7171;
+    padding: 16px;
+    margin: 0px;
+    gap: 5%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    z-index: 1;
+}
+
+.navTitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navTitle2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navMob{
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 12px;
+    position: fixed;
+    right: 0px;
+    background: #ff7171;
+    width: 100%;
+    padding: 2%;
+    top:50px;
+    z-index: 1;
+
+}
+
+
+.menu-bar {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .navTitle {
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+    }
+}
+
+.homeBody{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right,#fff6ad,#ffd2d1);
+    position: relative;
+    top:50px
+}
+
+.homeLeft{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    padding: 5%;
+}
+
+.homeRight{
+    width: 100%;
+}
+
+.homeTitle{
+    font-size: 28px;
+}
+
+.homeTitle2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.homeText{
+    font-size: 16px;
+    justify-content: center;
+}
+
+.homeButton{
+    font-size: 16px;
+    background: #ff7171;
+    padding: 10px;
+    color: white;
+
+}
+
+.homeBody2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5%;
+    padding: 8%;
+    /* height: 100vh; */
+    background: #f7cacb;
+}
+
+.homeBody2left{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.homeBody2leftImg{
+    width: 50%;
+    height: 50%;   
+}
+
+.homeBody2leftImg2{
+    width: 100%;
+    height: 100%;
+}
+
+
+.homeBody2Right{
+    width: 100%;
+    height: 50%;
+    background: #ff7171;
+    padding: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (min-width:768px) {
+
+    .homeTitle{
+    font-size: 48px;
+}
+
+
+
+.homeText, .homeButton {
+    font-size: 24px;
+}
+
+.navMob{
+    display: none;
+}
+
+}
+
+@media screen and (min-width:900px) {
+    .homeTitle2{
+        font-size: 48px;
+    }
+}
