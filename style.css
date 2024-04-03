@@ -58,6 +58,21 @@
     .menu-bar {
         display: block;
     }
+    .homeBody2{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+
+    }
+    .homeBody2left{
+        order: 2;
+    }
+
+    .homeBody2Right{
+        order:1;
+        
+    }
 }
 
 .homeBody{
@@ -108,10 +123,11 @@
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    gap: 5%;
+    /* gap: 5%; */
     padding: 8%;
     /* height: 100vh; */
     background: #f7cacb;
+    position: relative;
 }
 
 .homeBody2left{
@@ -163,5 +179,8 @@
 @media screen and (min-width:900px) {
     .homeTitle2{
         font-size: 48px;
+    }
+    .homeBody2{
+        gap: 5%;
     }
 }
